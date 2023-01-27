@@ -22,6 +22,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites">Testing</a></li>
       </ul>
     </li>
     <li><a href="#usage">Run</a></li>
@@ -67,8 +68,18 @@ To get a local copy up and running follow these simple example steps.
 This is an example of how to list things you need to use the software and how to install them.
 
 - npm
+
   ```sh
   npm install
+  ```
+
+  ### Testing
+
+This is an example of how to the Blockchain.
+
+- npm
+  ```sh
+  npm run test
   ```
 
 <!-- Run -->
@@ -83,7 +94,6 @@ Enter the following commands to run the project on your device.
   npm run dev
   ```
 
-- npm
   ```sh
   npm run dev-client
   ```
@@ -94,7 +104,7 @@ Enter the following commands to run the project on your device.
 
 ## License
 
-Distributed under the ISC License. See `LICENSE.txt` for more information.
+Distributed under the ISC License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

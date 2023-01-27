@@ -40,6 +40,7 @@ class Blockchain {
   }
 
   validTransactionData({ chain }) {
+    console.log(chain);
     for (let i = 1; i < chain.length; i++) {
       const block = chain[i];
       const transactionSet = new Set();
